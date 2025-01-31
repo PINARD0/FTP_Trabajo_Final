@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale Deck Selector</title>
+    <link rel="stylesheet" href="stylesRoyale.css">
+    <link href="https://fonts.googleapis.com/css2?family=Supercell-Magic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Clash Royale Deck Selector</h1>
+    </header>
+
+    <main>
+        <div class="deck-wrapper">
+            <div class="deck-container">
+                <div class="deck-row">
+                    <div class="deck-slot" data-slot="1" draggable="false">Empty</div>
+                    <div class="deck-slot" data-slot="2" draggable="false">Empty</div>
+                    <div class="deck-slot" data-slot="3" draggable="false">Empty</div>
+                    <div class="deck-slot" data-slot="4" draggable="false">Empty</div>
+                </div>
+                <div class="deck-row">
+                    <div class="deck-slot" data-slot="5" draggable="false">Empty</div>
+                    <div class="deck-slot" data-slot="6" draggable="false">Empty</div>
+                    <div class="deck-slot" data-slot="7" draggable="false">Empty</div>
+                    <div class="deck-slot" data-slot="8" draggable="false">Empty</div>
+                </div>
+            </div>
+
+            <div class="elixir-average">
+                Average Elixir: <span id="elixirCounter">0.0</span>
+                <img src="images/elixir_drop.png" alt="Elixir Drop" class="elixir-drop-icon">
+            </div>
+            
+        </div>
+
+        <div class="cards-container">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We are passionate about Clash Royale and creating fun experiences for our community. Follow us for updates!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scriptRoyale.js"></script>
+</body>
+</html>
